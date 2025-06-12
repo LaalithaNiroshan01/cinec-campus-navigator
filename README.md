@@ -107,45 +107,43 @@ The application will be available at `http://localhost:3000`.
 
 ## 👥 Contributors
 
-<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-6">
-  {[
-    {
-      name: "Laalitha Niroshan",
-      github: "https://github.com/LaalithaNiroshan01",
-    },
-    {
-      name: "Banitha Madushan",
-      github: "https://github.com/BanithaMadushan",
-    },
-    {
-      name: "Nadumi Prathibha",
-      github: "https://github.com/NadumiPrathibha",
-    },
-    {
-      name: "Palindi Fernando",
-      github: "https://github.com/PalindiFernando",
-    },
-    {
-      name: "Osanda Chathuranga",
-      github: "https://github.com/osca16",
-    },
-  ].map((contributor) => (
-    <a
-      href={contributor.github}
-      target="_blank"
-      rel="noopener noreferrer"
-      key={contributor.github}
-      className="transition-transform duration-300 transform hover:scale-105 hover:shadow-xl bg-white dark:bg-gray-800 p-5 rounded-2xl shadow-md text-center"
-    >
-      <div className="text-xl font-semibold text-gray-800 dark:text-white mb-2">
-        {contributor.name}
-      </div>
-      <div className="text-blue-600 dark:text-blue-400 underline text-sm">
-        {contributor.github.replace("https://", "")}
-      </div>
-    </a>
-  ))}
-</div>
+## 👥 Contributors
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/LaalithaNiroshan01" target="_blank">
+        <img src="https://avatars.githubusercontent.com/LaalithaNiroshan01" width="80" style="border-radius:50%"><br/>
+        <sub><b>Laalitha Niroshan</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/BanithaMadushan" target="_blank">
+        <img src="https://avatars.githubusercontent.com/BanithaMadushan" width="80" style="border-radius:50%"><br/>
+        <sub><b>Banitha Madushan</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/NadumiPrathibha" target="_blank">
+        <img src="https://avatars.githubusercontent.com/NadumiPrathibha" width="80" style="border-radius:50%"><br/>
+        <sub><b>Nadumi Prathibha</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/PalindiFernando" target="_blank">
+        <img src="https://avatars.githubusercontent.com/PalindiFernando" width="80" style="border-radius:50%"><br/>
+        <sub><b>Palindi Fernando</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/osca16" target="_blank">
+        <img src="https://avatars.githubusercontent.com/osca16" width="80" style="border-radius:50%"><br/>
+        <sub><b>Osanda </b></sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
 
 
 <div align="center">
