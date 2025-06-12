@@ -107,8 +107,6 @@ The application will be available at `http://localhost:3000`.
 
 ## 👥 Contributors
 
-## 👥 Contributors
-
 <table>
   <tr>
     <td align="center">
