@@ -249,15 +249,24 @@ function Sidebar() {
                     Indoor
                   </button>
                 </div>
-              </div>
 
-              <button
-                type="submit"
-                className="w-full py-2 bg-primary text-white font-semibold rounded-lg shadow-md hover:bg-primary-600 transition-colors"
-              >
-                <i className="ri-route-line mr-2"></i>
-                Get Directions
-              </button>
+                <div className="flex gap-4 my-4">
+                  <button
+                    type="submit"
+                    className="flex-1 py-2 bg-primary text-white font-semibold rounded-lg shadow-md hover:bg-primary-600 transition-colors"
+                  >
+                    <i className="ri-route-line mr-2"></i>
+                    Get Directions
+                  </button>
+                  <button
+                    type="button"
+                    className="w-10 h-10 bg-gray-100 text-primary border border-primary font-semibold rounded-lg shadow-md hover:bg-primary hover:text-white transition-colors flex items-center justify-center"
+                    title="Save Route"
+                  >
+                    <i className="ri-bookmark-line text-xl"></i>
+                  </button>
+                </div>
+              </div>
             </form>
 
             <div className="pt-4 border-t border-gray-100">

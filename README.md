@@ -41,23 +41,14 @@ A modern, interactive campus navigation system for CINEC Campus, built with Reac
 
 ### Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/cinec-campus-map.git
-   cd cinec-campus-map
-   ```
 
-2. Install dependencies:
+1. Install dependencies:
    ```bash
    npm install
    ```
 
-3. Create a `.env` file in the root directory and add your Google Maps API key:
-   ```
-   REACT_APP_GOOGLE_MAPS_API_KEY=your_api_key_here
-   ```
 
-4. Start the development server:
+2. Start the development server:
    ```bash
    npm start
    ```
@@ -104,13 +95,7 @@ The application will be available at `http://localhost:3000`.
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📝 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👥 Authors
-
-- Your Name - Initial work
 
 ## 🙏 Acknowledgments
 
@@ -118,10 +103,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - All contributors who have helped shape this project
 - The open-source community for their invaluable tools and resources
 
-## 📞 Support
-
-For support, email help@cinec.edu or create an issue in the repository.
-
 ---
-
-Made with ❤️ for CINEC Campus 
